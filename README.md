@@ -1,32 +1,40 @@
+# 🚨 REPOSITORY MOVED
 
-## Wayland compositor
+**Sway Wayland compositor setup for Debian**
 
-Assuming you have already installed a minimal Debian 12 install.
-The series of shell scripts are intended to facilitate installing popular window managers.
+This project has migrated to **Codeberg** for better alignment with open-source values.
 
-Within the install.sh file, you can choose to install the following window managers:
+## 👉 New Location: [codeberg.org/justaguylinux/sway-setup](https://codeberg.org/justaguylinux/sway-setup)
 
-* sway
+**⚠️ This GitHub repository is archived and read-only. DO NOT USE.**
 
-**User can select between vanilla(non-customized) and completely customized (my personal customization)** 
+**This code is from a previous version of Debian and is no longer maintained.**
 
-# Installation
+Please visit the new repository for:
+- Current documentation
+- Latest releases
+- Issue reporting
+- Contributing
 
-``` 
-wget https://github.com/drewgrif/sway/raw/main/install.sh
-
-chmod +x install.sh
-
-./install.sh
-
-rm install.sh
-
+**Update your git remote:**
+```bash
+git remote set-url origin https://codeberg.org/justaguylinux/sway-setup.git
 ```
 
-Recently, I have been thinking about getting a jump on adding a window manager for Wayland.  Fortunately, there is a good "compositor" for this purpose.
-Added scripts:
+---
 
-* nwg-look - installs an lxappearance program to use GTK themes and icons in Wayland.
-* rofi-wayland - designed to behave like rofi(xorg) but in Wayland.
+## 🤝 Connect
 
-NOTE:  The recommended login manager will be gdm3 or sddm.
+- 🌐 **Website**: [justaguylinux.com](https://justaguylinux.com)
+- 🎬 **YouTube**: [Just A Guy Linux](https://youtube.com/@justaguylinux)
+- 🐘 **Mastodon**: [@justaguylinux@fosstodon.org](https://fosstodon.org/@justaguylinux)
+
+---
+
+<div align="center">
+
+**Supporting truly open-source infrastructure** 🚀
+
+[![Codeberg](https://img.shields.io/badge/Hosted%20on-Codeberg-2185D0?style=for-the-badge)](https://codeberg.org/justaguylinux)
+
+</div>
